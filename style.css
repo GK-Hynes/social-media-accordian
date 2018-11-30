@@ -53,11 +53,11 @@ header h1 {
   width: 450px;
 }
 
-.tab:hover .social a:before {
+.tab:hover .social a::before {
   margin-left: -100px;
 }
 
-.tab:hover .social a:after {
+.tab:hover .social a::after {
   margin-left: -5px;
 }
 
@@ -81,8 +81,8 @@ header h1 {
   padding-right: 30px;
 }
 
-.social a:before,
-.social a:after {
+.social a::before,
+.social a::after {
   width: 80px;
   height: 200px;
   position: absolute;
@@ -95,7 +95,7 @@ header h1 {
   transition: all 0.4s ease-in-out 0.1s;
 }
 
-.social a:after {
+.social a::after {
   font-size: 48px;
   padding-left: 20px;
   padding-top: 80px;
@@ -104,57 +104,57 @@ header h1 {
 
 /* Add icons */
 
-.youtube a:before,
-.youtube a:after {
+.youtube a::before,
+.youtube a::after {
   content: "\f213";
 }
 
-.youtube a:after {
+.youtube a::after {
   background: #ff0000;
 }
 
-.twitter a:before,
-.twitter a:after {
+.twitter a::before,
+.twitter a::after {
   content: "\f202";
 }
 
-.twitter a:after {
+.twitter a::after {
   background: #1da1f2;
 }
 
-.facebook a:before,
-.facebook a:after {
+.facebook a::before,
+.facebook a::after {
   content: "\f204";
 }
 
-.facebook a:after {
+.facebook a::after {
   background: #3b5998;
 }
 
-.linkedin a:before,
-.linkedin a:after {
+.linkedin a::before,
+.linkedin a::after {
   content: "\f208";
 }
 
-.linkedin a:after {
+.linkedin a::after {
   background: #007bb5;
 }
 
-.instagram a:before,
-.instagram a:after {
+.instagram a::before,
+.instagram a::after {
   content: "\f215";
 }
 
-.instagram a:after {
+.instagram a::after {
   background: #c32aa3;
 }
 
-.github a:before,
-.github a:after {
+.github a::before,
+.github a::after {
   content: "\f200";
 }
 
-.github a:after {
+.github a::after {
   background: #24292e;
 }
 
